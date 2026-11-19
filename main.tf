@@ -1,7 +1,7 @@
 resource "aws_iam_user" "s3_user" {
   name = var.iam_username
   tags = {
-    Project   = "Project-4-IAM-Automation"
+    Project   = "Project-6-Version-Control"
     ManagedBy = "Terraform"
   }
 }
